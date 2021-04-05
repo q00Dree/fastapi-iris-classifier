@@ -1,6 +1,6 @@
 # Serving RandomForestClassifier model with FastAPI.
 
-## 1) Clone repo and deploy app on Windows.
+## 1) Clone repo and deploy app.
 
 ```
 git clone https://github.com/q00Dree/fastapi-iris-classifier.git \
