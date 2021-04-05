@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  random_forest_classifier_service:
+    build: ../src
+    command: uvicorn src.app.main:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - ../:/app/
+    ports:
+      - 8001:8000
