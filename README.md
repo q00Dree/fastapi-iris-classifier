@@ -9,7 +9,7 @@ git clone https://github.com/q00Dree/fastapi-iris-classifier.git \
 && bash deploy.sh
 ```
 
-## 2) Try model
+## 2) Try model to classify iris by params.
 
 ```
 curl --request POST \
